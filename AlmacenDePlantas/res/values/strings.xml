@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Plantas</string>
+    <string name="hello_world">Enciclopedia de plantas</string>
+    <string name="btn_ordenar_familia">Ordenar por familia</string>
+    <string name="btn_ordenar_nombre">Ordenar por nombre</string>
+    <string name="descripcion_img">imagen principal</string>
+    <string name="title_activity_ver_detalle">Ver detalle</string>
+    <string name="buscar_planta">Buscar planta</string>
+    <string name="lbl_nombre_planta">Nombre</string>
+    <string name="lbl_nombre_cientifico_planta">Nombre cientifico</string>
+    <string name="lbl_tipo_planta">Tipo</string>
+    <string name="lbl_desc_planta">Descripción</string>
+    <string name="lbl_familia_planta">Familia</string>
+    <string name="lbl_info_planta">Información adicional</string>
+    <string name="btn_nueva_planta">Nueva planta</string>
+	<string name="editar">Editar</string>
+	<string name="borrar">Eliminar</string>
+</resources>

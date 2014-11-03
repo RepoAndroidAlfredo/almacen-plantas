@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:layout_marginTop="@dimen/activity_margins"
+    android:layout_marginRight="@dimen/activity_margins"
+    android:layout_marginBottom="@dimen/activity_margins"
+    android:layout_marginLeft="@dimen/activity_margins"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_margin="@dimen/componets_margin"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btn_ordenar_familia"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginEnd="@dimen/componets_margin"
+            android:layout_marginRight="@dimen/componets_margin"
+            android:text="@string/btn_ordenar_familia"
+            android:textSize="@dimen/btn_ordenar_tam" />
+
+        <Button
+            android:id="@+id/btn_ordenar_nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" 
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/componets_margin"
+            android:layout_marginLeft="@dimen/componets_margin"
+            android:text="@string/btn_ordenar_nombre"
+            android:textSize="@dimen/btn_ordenar_tam"/>
+    </LinearLayout>
+    
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/componets_margin"
+        android:text="@string/btn_nueva_planta"/>
+    
+    <GridView 
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="1"
+        android:layout_margin="@dimen/componets_margin"
+        android:layout_marginTop="@dimen/componets_margin"
+        android:verticalSpacing="@dimen/gridview_margins"
+        android:horizontalSpacing="@dimen/gridview_margins">
+
+    </GridView>
+
+</LinearLayout>
