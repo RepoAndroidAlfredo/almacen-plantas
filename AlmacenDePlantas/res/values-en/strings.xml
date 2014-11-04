@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Plantas</string>
+    <string name="app_name">Plants</string>
     <string name="hello_world">Enciclopedia de plantas</string>
-    <string name="btn_ordenar_familia">Ordenar por familia</string>
-    <string name="btn_ordenar_nombre">Ordenar por nombre</string>
-    <string name="descripcion_img">imagen principal</string>
-    <string name="title_activity_ver_detalle">Ver detalle</string>
-    <string name="buscar_planta">Buscar planta</string>
-    <string name="lbl_nombre_planta">Nombre</string>
-    <string name="lbl_nombre_cientifico_planta">Nombre cientifico</string>
-    <string name="lbl_desc_planta">Descripción</string>
-    <string name="lbl_familia_planta">Familia</string>
-    <string name="lbl_info_planta">Información adicional</string>
-    <string name="btn_nueva_planta">Nueva planta</string>
+    <string name="btn_ordenar_familia">Sort by type</string>
+    <string name="btn_ordenar_nombre">Sort by name</string>
+    <string name="descripcion_img">Image</string>
+    <string name="title_activity_ver_detalle">View detail</string>
+    <string name="buscar_planta">Search plant</string>
+    <string name="lbl_nombre_planta">Name</string>
+    <string name="lbl_nombre_cientifico_planta">Cientific name</string>
+    <string name="lbl_desc_planta">Description</string>
+    <string name="lbl_familia_planta">Family</string>
+    <string name="lbl_info_planta">Aditional info</string>
+    <string name="lbl_tipo_planta">Type</string>
+    <string name="editar">Edit</string>
+	<string name="borrar">Remove</string>
+    <string name="btn_nueva_planta">New plant</string>
+    <string name="opc_continuar">Continue</string>
+	<string name="opc_cancelar">Cancel</string>
+	<string name="opt_borrar">Delete operation</string>
+	<string name="opt_borrar_desc">This operation do not revert</string>
 
 </resources>

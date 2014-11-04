@@ -17,4 +17,9 @@
     <string name="btn_nueva_planta">Nueva planta</string>
 	<string name="editar">Editar</string>
 	<string name="borrar">Eliminar</string>
+	<string name="opc_continuar">Continuar</string>
+	<string name="opc_cancelar">Cancelar</string>
+	<string name="opt_borrar">Operacion de borrado</string>
+	<string name="opt_borrar_desc">ESta operación no se puede revertir</string>
+	
 </resources>
