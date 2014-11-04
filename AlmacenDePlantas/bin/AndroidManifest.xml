@@ -47,7 +47,7 @@
             android:label="@string/title_activity_ver_detalle" >
         </activity>
         <activity
-            android:name=".EditarPlantaActivity"
+            android:name="com.cifprodolfoucha.almacendeplantas.EditarPlantaActivity"
             android:label="@string/title_activity_editar_planta" >
         </activity>
     </application>

@@ -24,7 +24,6 @@ import android.widget.GridView;
 import android.widget.SearchView;
 import android.widget.Toast;
 
-import com.jch.almacendeplantas.EditarPlantaActivity;
 import com.jch.almacendeplantas.R;
 
 public class MainActivity extends Activity {
