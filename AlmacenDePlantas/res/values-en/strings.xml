@@ -21,5 +21,6 @@
 	<string name="opc_cancelar">Cancel</string>
 	<string name="opt_borrar">Delete operation</string>
 	<string name="opt_borrar_desc">This operation do not revert</string>
-
+	<string name="hacer_foto">Take photo</string>
+	
 </resources>

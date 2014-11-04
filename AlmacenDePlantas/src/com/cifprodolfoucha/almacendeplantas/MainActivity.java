@@ -24,6 +24,7 @@ import android.widget.GridView;
 import android.widget.SearchView;
 import android.widget.Toast;
 
+import com.jch.almacendeplantas.EditarPlantaActivity;
 import com.jch.almacendeplantas.R;
 
 public class MainActivity extends Activity {
@@ -71,7 +72,8 @@ public class MainActivity extends Activity {
 				 item.getMenuInfo();
 		switch (item.getItemId()) {
 			case R.id.editar:
-				// TODO: pasarle el intent de editar
+				Intent foto = new Intent(this, EditarPlantaActivity.class);
+				startActivity(foto);
 				return true;
 			case R.id.borrar:
 				int posicion = info.position;

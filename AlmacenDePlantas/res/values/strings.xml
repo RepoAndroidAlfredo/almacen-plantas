@@ -15,11 +15,13 @@
     <string name="lbl_familia_planta">Familia</string>
     <string name="lbl_info_planta">Información adicional</string>
     <string name="btn_nueva_planta">Nueva planta</string>
-	<string name="editar">Editar</string>
-	<string name="borrar">Eliminar</string>
-	<string name="opc_continuar">Continuar</string>
-	<string name="opc_cancelar">Cancelar</string>
-	<string name="opt_borrar">Operacion de borrado</string>
-	<string name="opt_borrar_desc">ESta operación no se puede revertir</string>
-	
+    <string name="editar">Editar</string>
+    <string name="borrar">Eliminar</string>
+    <string name="opc_continuar">Continuar</string>
+    <string name="opc_cancelar">Cancelar</string>
+    <string name="opt_borrar">Operacion de borrado</string>
+    <string name="opt_borrar_desc">ESta operación no se puede revertir</string>
+    <string name="title_activity_editar_planta">Editar planta</string>
+    <string name="hacer_foto">Hacer foto</string>
+
 </resources>
