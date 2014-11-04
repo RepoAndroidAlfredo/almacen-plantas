@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/activity_margins"
+    tools:context="${relativePackage}.${activityClass}" >
+
+	<Button 
+	    android:id="@+id/btn_hacer_foto"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/hacer_foto"/>
+	
+	<ImageView 
+	    android:id="@+id/img_tomada"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_margin="@dimen/componets_margin"/>
+</LinearLayout>
