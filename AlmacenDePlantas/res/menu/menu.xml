@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_buscar"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@android:drawable/ic_menu_search"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/buscar_planta"/>
+    <item
+        android:id="@+id/salir"
+        android:checked="false"
+        android:enabled="true"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/Salir"
+        android:visible="true">
+    </item>
+
+</menu>
+=======
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >   
+	<item android:id="@+id/menu_buscar"
+	    android:actionViewClass="android.widget.SearchView"
+	    android:icon="@android:drawable/ic_menu_search"
+	    android:showAsAction="ifRoom|collapseActionView"
+	    android:title="@string/buscar_planta" />
+</menu>
+>>>>>>> refs/remotes/origin/master
