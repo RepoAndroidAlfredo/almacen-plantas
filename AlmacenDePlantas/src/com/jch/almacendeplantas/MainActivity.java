@@ -36,7 +36,8 @@ public class MainActivity extends Activity {
 		inicializarComponentes();
 		// Se registra el menu contextual en el gridview
 		registerForContextMenu(gridView);
-
+		String d;
+  
 	}
 
 	@Override
