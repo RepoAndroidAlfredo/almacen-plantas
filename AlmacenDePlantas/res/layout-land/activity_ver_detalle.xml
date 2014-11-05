@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/activity_margins_land"
+    android:layout_marginTop="@dimen/activity_margins"
+    android:layout_marginRight="@dimen/activity_margins_land"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <ImageView
+        android:id="@+id/img_planta_detalle"
+        android:layout_width="120dp"
+        android:layout_height="180dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="@dimen/componets_margin"
+        android:layout_marginRight="@dimen/componets_margin"
+        android:contentDescription="@string/descripcion_img"
+        android:src="@drawable/sample_0" />
+
+    <TextView
+        android:id="@+id/txt_nombre_planta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/componets_margin"
+        android:layout_marginStart="@dimen/componets_margin"
+        android:layout_toEndOf="@id/img_planta_detalle"
+        android:layout_toRightOf="@id/img_planta_detalle"
+        android:text="asdfasdfasdfasdfasdf"
+        android:textSize="@dimen/txt_size_titulo"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_descripcion_planta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_nombre_planta"
+        android:layout_marginLeft="@dimen/componets_margin"
+        android:layout_marginStart="@dimen/componets_margin"
+        android:layout_toEndOf="@id/img_planta_detalle"
+        android:layout_toRightOf="@id/img_planta_detalle"
+        android:lines="3"
+        android:text="asdfasdfasdfasdfasdfsdfasfgsdfghsdfg"
+        android:textSize="@dimen/txt_size"
+        android:textStyle="normal" />
+
+</RelativeLayout>

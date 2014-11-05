@@ -1,0 +1,156 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/activity_margins"
+    android:layout_marginLeft="@dimen/activity_margins"
+    android:layout_marginRight="@dimen/activity_margins"
+    android:layout_marginTop="@dimen/activity_margins"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/lbl_nombre_planta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/componets_margin"
+        android:layout_marginLeft="@dimen/componets_margin"
+        android:layout_marginStart="@dimen/componets_margin"
+        android:layout_toEndOf="@+id/img_planta_detalle"
+        android:layout_toRightOf="@id/img_planta_detalle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/lbl_nombre_planta"
+        android:textSize="@dimen/txt_lbl"
+        android:textStyle="bold" />
+    
+    <ImageView
+        android:id="@id/img_planta_detalle"
+        android:layout_width="100dp"
+        android:layout_height="160dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/lbl_nombre_planta"
+        android:layout_marginEnd="@dimen/componets_margin"
+        android:layout_marginRight="@dimen/componets_margin"
+        android:contentDescription="@string/descripcion_img"
+        android:src="@drawable/sample_0" />
+
+    <TextView
+        android:id="@+id/lbl_nombre_cientifico_planta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/componets_margin"
+        android:layout_marginLeft="@dimen/componets_margin"
+        android:layout_marginStart="@dimen/componets_margin"
+        android:layout_toEndOf="@id/img_planta_detalle"
+        android:layout_toRightOf="@id/img_planta_detalle"
+        android:layout_below="@id/lbl_nombre_planta"
+        android:text="@string/lbl_nombre_cientifico_planta"
+        android:textSize="@dimen/txt_lbl"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_nombre_cientifico_planta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/componets_margin"
+        android:layout_below="@id/lbl_nombre_cientifico_planta"
+        android:layout_marginLeft="@dimen/componets_margin"
+        android:layout_marginStart="@dimen/componets_margin"
+        android:layout_toEndOf="@id/img_planta_detalle"
+        android:layout_toRightOf="@id/img_planta_detalle"
+        android:text="asdfasdfasdfasdfasdf"
+        android:textSize="@dimen/txt_size" />
+
+    <TextView
+        android:id="@+id/lbl_tipo_planta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/componets_margin"
+        android:layout_below="@id/txt_nombre_cientifico_planta"
+        android:layout_marginLeft="@dimen/componets_margin"
+        android:layout_marginStart="@dimen/componets_margin"
+        android:layout_toEndOf="@id/txt_nombre_cientifico_planta"
+        android:layout_toRightOf="@id/img_planta_detalle"
+        android:text="@string/lbl_tipo_planta"
+        android:textSize="@dimen/txt_lbl"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_tipo_planta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/componets_margin"
+        android:layout_below="@id/lbl_tipo_planta"
+        android:layout_marginLeft="@dimen/componets_margin"
+        android:layout_marginStart="@dimen/componets_margin"
+        android:layout_toEndOf="@id/img_planta_detalle"
+        android:layout_toRightOf="@id/img_planta_detalle"
+        android:text="asdfasdfasdfasdfasdf"
+        android:textSize="@dimen/txt_size" />
+
+    <TextView
+        android:id="@+id/lbl_familia_planta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/componets_margin"
+        android:layout_below="@id/txt_tipo_planta"
+        android:layout_marginLeft="@dimen/componets_margin"
+        android:layout_marginStart="@dimen/componets_margin"
+        android:layout_toEndOf="@id/img_planta_detalle"
+        android:layout_toRightOf="@id/img_planta_detalle"
+        android:text="@string/lbl_familia_planta"
+        android:textSize="@dimen/txt_lbl"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_familia_planta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/componets_margin"
+        android:layout_below="@id/lbl_familia_planta"
+        android:layout_marginLeft="@dimen/componets_margin"
+        android:layout_marginStart="@dimen/componets_margin"
+        android:layout_toEndOf="@id/img_planta_detalle"
+        android:layout_toRightOf="@id/img_planta_detalle"
+        android:text="asdfasdfasdfasdfasdf"
+        android:textSize="@dimen/txt_size" />
+
+    <TextView
+        android:id="@+id/lbl_desc_planta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/componets_margin"
+        android:layout_below="@id/txt_familia_planta"
+        android:layout_marginLeft="@dimen/componets_margin"
+        android:layout_marginStart="@dimen/componets_margin"
+        android:text="@string/lbl_desc_planta"
+        android:textSize="@dimen/txt_lbl"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_descripcion_planta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/componets_margin"
+        android:layout_below="@id/lbl_desc_planta"
+        android:layout_marginLeft="@dimen/componets_margin"
+        android:layout_marginStart="@dimen/componets_margin"
+        android:lines="3"
+        android:text="asdfasdfasdfasdfasdfsdfadfsggggggggggdfgsdfgsdfgggggggggggggggggggggggergtsdfgsdfgsdfgsfdgdfgsfgsdfghsdfg"
+        android:textSize="@dimen/txt_size"
+        android:textStyle="normal" />
+    
+    <TextView
+        android:id="@+id/lbl_info_planta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/componets_margin"
+        android:layout_below="@id/txt_descripcion_planta"
+        android:layout_marginLeft="@dimen/componets_margin"
+        android:layout_marginStart="@dimen/componets_margin"
+        android:text="@string/lbl_info_planta"
+        android:textSize="@dimen/txt_lbl"
+        android:textStyle="bold" />
+
+</RelativeLayout>
