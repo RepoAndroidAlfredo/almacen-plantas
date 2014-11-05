@@ -20,7 +20,7 @@ public class VerDetalleActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_ver_detalle);
-		// Inializa los componentes graficos
+		// Inializa los componentes graficas
 		inicializarComponentes();
 		// Muesta la planta recibida
 		Planta planta = getIntent().getParcelableExtra("planta");
