@@ -22,7 +22,7 @@ public class VerDetalleActivity extends Activity {
 		setContentView(R.layout.activity_ver_detalle);
 		// Inializa los componentes graficos
 		inicializarComponentes();
-		// Muesta la planta recibida 
+		// Muesta la planta recibida
 		Planta planta = getIntent().getParcelableExtra("planta");
 		mostrarDetallePlanta(planta);
 	}
